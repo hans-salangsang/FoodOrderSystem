@@ -30,7 +30,7 @@ namespace FoodOrderSystem
                 Label itemLabel = new Label
                 {
                     Text = $"{item.Name} - {item.Price}",
-                    Width = 300,
+                    Width = 500,
                 };
 
                 tableLayoutPanel1.Controls.Add(itemLabel, 0, rowIndex++);
