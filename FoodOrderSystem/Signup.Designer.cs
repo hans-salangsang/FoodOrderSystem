@@ -343,6 +343,7 @@
             label3.Size = new Size(99, 28);
             label3.TabIndex = 0;
             label3.Text = "First Name";
+            label3.Click += label3_Click;
             // 
             // SignupForm
             // 
